@@ -12,7 +12,7 @@ export const FirstScreen = () => {
         </figure>
         <h1 className="font-bold text-7xl title">Progest</h1>
       </div>
-      <h2 className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400">Project manager for video creator.</h2>
+      <h2 className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-red-500">Project manager for video creator.</h2>
       <Button onClick={() => navigate("./setting-first")} color="secondary" variant="bordered" className="font-bold">Create First Project</Button>
     </div>
   )
